@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root{
+    --pink:#FF046F;
+    --voilet:#C63BFA;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.contact{
+    background: #333;
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 3rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.contact .form-container{
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact .form-container input, textarea {
+    height: 4rem;
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 3rem;
+    padding: 0 2rem;
+    margin: 1rem 0;
+    color: var(--pink);
+    font-size: 1.7rem;
+    transition: .2s linear;
+}
+
+.contact .form-container input:hover, textarea:hover {
+    border: .2rem solid var(--pink);
+}
+
+.contact .form-container textarea {
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    resize: none;
+}
+
+.contact .form-container input[type="submit"]{
+    width: 17rem;
+    background: var(--pink);
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.contact .form-container input[type="submit"]:hover{
+    background: none;
+    color: var(--pink);
+    border: .2rem solid var(--pink);
+}
