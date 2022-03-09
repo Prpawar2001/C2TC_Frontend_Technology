@@ -1,0 +1,47 @@
+body {
+    text-align : center;
+    background-color: #ACFFAD;
+}
+
+h1 {
+    color: #1EAE98;
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+}
+
+h3 {
+    color: #1EAE98;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    display: inline-block;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Heading Section */
+
+/* Content Section */
+
+.dice {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.player {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* Footer Section */
+
+.footer {
+    padding: 10% 0;
+}
+
+.fas {
+    color: #1EAE98;
+}
