@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #DBE6FD;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Allison', cursive;
+    font-size: 100px;
+    color: #012443;
+}
+
+h3 {
+    font-family: 'Klee One', cursive;
+    margin-top: 5px;
+    color: #293B5F;
+}
+
+p {
+    padding-top: 5px;
+    line-height: 2;
+}
+
+hr {
+    border: none;
+    border-top: dotted;
+    border-width: 6px;
+    border-color: white;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.intro {
+    background-image: url(images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 400px;
+    position: relative;
+    padding-top: 300px;
+}
+
+.myself-row {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cloud-1 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+
+.cloud-2 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 15%;
+    top: 20%
+}
+
+.profile-img {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-right: 200px;
+}
+
+.icon-img {
+    width: 20%;
+    height: 20%;
+    float: right;
+    border: groove;
+    border-radius: 100px;
+    border-color: #293B5F;
+    margin-right: 100px;
+}
+
+.speacial-heading {
+    font-family: 'Klee One', cursive;
+    font-size: 50px;
+    color: #293B5F;
+    margin-bottom: 100px;
+}
+
+.contact {
+	box-shadow: 5px 12px 6px 2px #293B5F;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom, #2D46B9 100%, #170055 40%);
+    color: white;
+    padding: 10px 40px;
+    text-decoration-line: none;
+}
+
+.contact:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+}
+
+.footer {
+    background-color: teal;
+    padding: 30px;
+}
+
+.personal {
+    color:white;
+    text-decoration-line: none;
+    margin: 10px 30px;
+}
